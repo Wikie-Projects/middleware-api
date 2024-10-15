@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"dev": "node  server.js",
+		"dev": "node --expreimental-sqlite  server.js",
 		"start": "node server.js"
 	},
 	"keywords": [],
@@ -13,6 +13,7 @@
 	"description": "",
 	"dependencies": {
 		"@types/express": "^5.0.0",
+		"@types/node": "^22.7.5",
 		"express": "^4.21.1"
 	}
 }

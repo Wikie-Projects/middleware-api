@@ -11,6 +11,7 @@ router.get("/:id", eventsController.getEvent);
 router.post("/", eventsController.createEvent);
 
 router.put("/:id", eventsController.updateEvent);
+router.patch("/:id", eventsController.updateEvent);
 
 router.delete("/:id", eventsController.removeEvent);
 
